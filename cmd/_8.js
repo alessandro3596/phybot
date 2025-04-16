@@ -2,7 +2,7 @@ const pool = global.pool;
 const { EmbedBuilder } = require('discord.js');
 
 const commands = {
-    'tag': async (args, msg) => { // TODO: add better tag system
+    'tag': async (args, msg) => { // idk
         if (args.length === 0) {
             let embed = new EmbedBuilder()
                 .setAuthor({
