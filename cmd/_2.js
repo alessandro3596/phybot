@@ -119,7 +119,7 @@ const commands = {
 
             return;
         }
-        const channel = await global.client.channels.fetch('1357348999736332319');
+        const channel = await global.client.channels.fetch('channel_id');
         await channel.send('Suggestion: ' + args.join(' '));
         msg.channel.send('thank you');
     }
